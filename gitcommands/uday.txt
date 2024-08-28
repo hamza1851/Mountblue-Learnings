@@ -14,6 +14,8 @@ git status
 
 git add file.txt (use to add the file)
 
+git commit -m "" (use to commit the file)
+
 git log (to check the recent commits)
 
 git diff
@@ -36,6 +38,12 @@ git merge (to merge the branch)
 ssh-keygen -o (to create ssh key from local machine)
 
 git push -u origin branchname (you are pushing to origin)
+
+git tag (to give the version)
+
+git fetch
+
+git branch -d branchname (to delete the branch)
 
 
 
