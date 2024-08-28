@@ -1,0 +1,11 @@
+Computer networks are system of interconnected computer and other devices that can commuicate and share resource with each other
+
+Types of Computer Network
+
+LAN (local area network) : This network only used for house and building
+
+PAN (personal area network) :This is used personal devices like bluetooth etc
+
+WAN (wide area network): This is used wide range networks like small city
+
+MAN (metropoltian area network): This networkm used in large city
