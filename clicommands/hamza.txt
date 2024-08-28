@@ -1,0 +1,22 @@
+python3 -m http.server
+
+netstat -tlpn | grep :<port>
+# netstat is a utility to display the information about network connection, sockets and more
+# -t option specifies that you want to see information about TCP connections.
+# -l option specifies that you want to see only listening sockets.
+# -p option specifies that you want to see the process id associated with each connection.
+
+which
+#this command is use to see the pathnames of command
+
+#Pipes are amazing
+tr -d '[:alnum:]' < harrypotter.txt |sort | uniq | wc -l
+#In the above command I faced difficulty when i was comming up with this command
+#tr command basically translate whatever is given to it and processes it to show as a standard output
+
+curl 
+#is used get or post a request
+#Also for downloadin resources
+
+netstat
+#used to show information about the network connection
