@@ -1,0 +1,41 @@
+git is version control helps manage changes in files and allowing to mutile people to work on same project
+
+some git commands
+
+git config
+
+git config --global user.name "demouser"
+
+git config --global user.email "demouser@gmail.com"
+
+git init (create local repo)
+
+git status 
+
+git add file.txt (use to add the file)
+
+git log (to check the recent commits)
+
+git diff
+
+git stash (to get list stash)
+
+git shortlog
+
+git clone  (to clone other repo)
+
+git branch (to check branchs)
+
+git checkout -b branchname (to create and switch that branch)
+
+git switch ( to switch the branch)
+
+git merge (to merge the branch)
+
+
+ssh-keygen -o (to create ssh key from local machine)
+
+git push -u origin branchname (you are pushing to origin)
+
+
+
