@@ -1,0 +1,60 @@
+Cli means command Line interface is used to interact with system with out GUI interface
+
+some common commands are
+
+mkdir (To make new folder)
+
+cd (To change the dir)
+
+ls (To list out things)
+
+rm (to remove the files or dir)
+
+touch (to create the files)
+
+echo 
+
+read
+
+chmod (to change file permission)
+
+chown
+
+head (show top results)
+
+tail (showing bottom result)
+
+less
+
+more
+
+sudo (super user do ,we can install ,update or delete packages)
+
+apt
+
+sudo adduser
+
+sudo deluser
+
+grep
+
+ps aux
+
+top
+
+find (to find about files)
+
+netstat (network connections)
+
+netstat -atu
+
+curl (is used get or post a request)
+
+ping (to check connections of end points)
+
+cat
+
+
+
+
+
