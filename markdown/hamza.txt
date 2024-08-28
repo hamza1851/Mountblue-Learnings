@@ -1,0 +1,18 @@
+New things I learned in Markdowns
+
+Strike through(~~ ~~)
+
+subscript <sub> </sub>
+
+Super subscript <sup> </sup>
+
+Quoting Text :
+>Text that is quote
+
+Quoting code
+```
+This is a code
+```
+
+Horizontal line
+---
