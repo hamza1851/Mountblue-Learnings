@@ -1,0 +1,22 @@
+-------------------------What is a network?-------------------------
+
+A network is a group of interconnected things.
+A computer network is a set of interconnected computers for the purpose of sharing resources. 
+Resources that can be shared include the internet, a printer, or a file server.
+
+-------------------------Types of networks-------------------------
+
+--------Local Area Network (LAN): 
+            A network that connects devices in a limited geographic area, such as a home, office, or school.
+
+--------Wide Area Network (WAN): 
+            A network that connects devices over a large geographic area, such as a country or continent. The internet is a global WAN.
+
+--------Metropolitan Area Network (MAN): 
+            A network that connects devices within a city or metropolitan area.
+
+-------------------------How the web works-------------------------
+
+The World Wide Web is a system of interconnected web pages that are accessed through a web browser. 
+When you type a URL into a web browser, your computer sends a request to the web server that hosts the web page. 
+The web server then sends the web page to your computer, where it is displayed in your web browser.
