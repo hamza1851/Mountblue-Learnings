@@ -1,0 +1,35 @@
+# Get help on a command
+git help    # Example: git help push
+
+# Configure Git settings
+git config    # Example: git config --global user.name "Your Name"
+
+# Create intermediate directories as necessary
+mkdir -p    # Example: mkdir -p repos/website
+
+# Show the status of the repository
+git status
+
+# Create an empty file
+touch    # Example: touch foo
+
+# Add all files or directories to the staging area
+git add -A
+
+# Add a specific file or directory to the staging area
+git add    # Example: git add foo
+
+# Commit staged changes with a message
+git commit -m    # Example: git commit -m "Add thing"
+
+# Stage and commit changes with a message in one command
+git commit -am    # Example: git commit -am "Add thing"
+
+# Show differences between commits, branches, etc.
+git diff
+
+# Amend the last commit
+git commit --amend
+
+# Show the diff of a specific commit by SHA
+git show <SHA>   # Example: git show fb738e…
