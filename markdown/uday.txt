@@ -1,0 +1,11 @@
+Markdown is a set of syntax rules used while writing `.md` files in Git. 
+
+Some basic commands:
+
+* `#` for headings
+* `##` for sub-headings
+* `###` for h3 tags in HTML
+* `** **` is used to make text bold
+* `*** ***` is used to make text bold and itali
+* `[dep](url)` links the word "dep" to a URL
+* `---` is used to create a horizontal line
