@@ -1,0 +1,132 @@
+ #Network 
+ 
+A network is a collection of interconnected devices that communicate and share resources with each other.
+
+#Network Topology
+
+Network topology refers to the arrangement of different elements (links, nodes, etc.) in a computer network. Common types include:
+
+    Bus Topology: All devices share a single communication line.
+    Star Topology: All devices are connected to a central hub or switch.
+    Ring Topology: Each device is connected to two other devices, forming a circular path.
+    Mesh Topology: Every device is connected to every other device.
+    Tree Topology: A hybrid topology combining characteristics of star and bus topologies.
+
+ #Bandwidth
+
+Bandwidth is the maximum rate of data transfer across a network path, measured in bits per second (bps).
+
+#Node
+A node is any device or point in a network where data is sent, received, or forwarded.
+
+#Link
+A link is the communication pathway that connects two nodes in a network.
+
+#TCP Model
+The TCP/IP model (Transmission Control Protocol/Internet Protocol) is a conceptual framework for communication protocols used in the Internet, consisting of 
+
+#four layers:
+    Application Layer: Handles high-level protocols, including HTTP, FTP, etc.
+    Transport Layer: Provides reliable data transfer (TCP) or faster, less reliable transfer (UDP).
+    Internet Layer: Routes data packets (IP).
+    Link Layer: Manages the physical connection between devices.
+
+#OSI Model Layers
+The OSI model consists of seven layers:
+
+    Physical Layer: Transmits raw bit streams over a physical medium.
+    Data Link Layer: Manages data frames between adjacent nodes.
+    Network Layer: Determines the path for data across the network.
+    Transport Layer: Provides reliable data transfer services.
+    Session Layer: Manages sessions between applications.
+    Presentation Layer: Translates data formats between applications.
+    Application Layer: Provides network services to applications.
+
+#Significance of Data Link Layer
+The Data Link Layer ensures reliable data transfer between adjacent network nodes by detecting and possibly correcting errors that may occur in the Physical Layer.
+
+ #Gateway
+A gateway is a network node that connects two different networks, often with different protocols.
+
+ #Difference Between Gateway and Router
+    Gateway: Connects networks with different protocols and acts as an entry/exit point for data.
+    Router: Directs data packets between networks with the same protocol.
+
+ #Ping Command
+The ping command checks the connectivity between two network devices by sending ICMP Echo Request messages and measuring the response time.
+
+#DNS, DNS Forwarder, NIC
+    DNS (Domain Name System): Translates domain names into IP addresses.
+    DNS Forwarder: A server that forwards DNS queries to an external DNS server.
+    NIC (Network Interface Card): A hardware component that allows a computer to connect to a network.
+
+#MAC Address
+A MAC address (Media Access Control address) is a unique identifier assigned to a network interface card for communication within a network.
+
+ #IP Address, Private IP Address, Public IP Address, APIPA
+    IP Address: A unique identifier for a device on a network.
+    Private IP Address: An IP address used within a private network, not routable on the internet.
+    Public IP Address: An IP address that is routable on the internet.
+    APIPA (Automatic Private IP Addressing): A feature in Windows that assigns a unique IP address from the range 169.254.0.1 to 169.254.255.254 when a DHCP server is unavailable.
+
+#IPv4 vs. IPv6
+    IPv4: 32-bit address, limited to 4.3 billion unique addresses.
+    IPv6: 128-bit address, providing a vastly larger address space.
+
+ #Subnet
+A subnet is a segment of a larger network, created by dividing an IP network into multiple smaller network segments.
+
+ #Firewalls
+Firewalls are security devices or software that monitor and control incoming and outgoing network traffic based on predetermined security rules.
+
+#Different Types of Delays
+    Propagation Delay: Time it takes for a signal to travel from the sender to the receiver.
+    Transmission Delay: Time required to push all the packet's bits onto the wire.
+    Processing Delay: Time spent processing the packet header.
+    Queuing Delay: Time a packet spends in routing queues.
+
+#3-Way Handshaking
+3-Way Handshaking is a method used in TCP/IP networks to establish a reliable connection:
+
+    SYN: The client sends a synchronization request.
+    SYN-ACK: The server acknowledges the request and sends its own synchronization request.
+    ACK: The client acknowledges the server's request, completing the connection setup.
+
+#Server-Side Load Balancer
+A server-side load balancer distributes network or application traffic across multiple servers to ensure reliability and performance.
+
+#RSA Algorithm
+The RSA algorithm is an asymmetric cryptographic algorithm used for secure data transmission. It relies on the mathematical properties of large prime numbers.
+
+#HTTP and HTTPS Protocols
+
+    HTTP (Hypertext Transfer Protocol): A protocol used for transmitting web pages over the internet.
+    HTTPS (Hypertext Transfer Protocol Secure): A secure version of HTTP that uses encryption (SSL/TLS) to protect data in transit.
+
+#SMTP Protocol
+SMTP (Simple Mail Transfer Protocol) is a protocol used to send emails across the internet.
+
+#TCP vs. UDP Protocols
+    TCP (Transmission Control Protocol): Reliable, connection-oriented protocol that ensures data is received in order.
+    UDP (User Datagram Protocol): Unreliable, connectionless protocol that is faster but doesn't guarantee delivery.
+
+#What Happens When You Enter “google.com”
+    DNS Lookup: The domain name is translated into an IP address.
+    TCP Connection: A TCP connection is established between your computer and Google's server.
+    HTTP/HTTPS Request: Your browser sends an HTTP/HTTPS request to the server.
+    Server Response: The server processes the request and sends back the requested web page.
+    Rendering: Your browser renders the page on your screen.
+
+#Hub vs. Switch
+    Hub: Broadcasts data to all devices in a network; less efficient.
+    Switch: Directs data only to the intended device, improving network efficiency.
+
+#VPN
+VPN (Virtual Private Network): Creates a secure connection over the internet between your device and a remote server.
+Advantages: Provides privacy, security, and remote access.
+Disadvantages: Can reduce internet speed and may be blocked by some services.
+
+#LAN
+LAN (Local Area Network): A network that connects devices within a limited area, such as a home or office.
+
+
