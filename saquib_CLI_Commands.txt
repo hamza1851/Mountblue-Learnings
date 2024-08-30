@@ -1,0 +1,61 @@
+# Display Linux system information
+uname -a
+
+# Display kernel release information
+uname -r
+
+# Display and manage the top processes
+top
+
+# List all files in a long listing (detailed) format
+ls -al
+
+
+# Remove the directory and its contents recursively
+rm -r directory
+
+# Force removal of file without prompting for confirmation
+rm -f file
+
+# Create an empty file or update the access and modification times of file.
+touch file
+
+# View the contents of file
+cat file
+
+# Browse through a text file
+less file
+
+# Display the first 10 lines of file
+head file
+
+# Display the last 10 lines of file
+tail file
+
+# Display the last 10 lines of file and "follow" the file as it grows.
+tail -f file
+
+# Display your currently running processes
+ps
+
+# Display all the currently running processes on the system.
+ps -ef
+
+# Display process information for processname
+ps -ef | grep processname
+
+# Display and manage the top processes
+top
+
+#used to search for specific patterns or regular expressions in text files or streams and display matching lines.
+grep
+
+#Change file permissions.
+chmod
+
+#Change file ownership.
+chmown
+
+#Change group ownership.
+chgrp
+
